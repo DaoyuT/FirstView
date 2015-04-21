@@ -1,0 +1,259 @@
+body {
+
+	  background-image: url("6.jpg");
+	  background-attachment: fixed;
+	 
+		margin-top:10px;
+		margin-right:5px;
+		margin-bottom:5px;
+		margin-left:20px;
+	
+	
+	}
+img.l 
+{
+float:left;
+}
+img.r 
+{
+float:right;
+
+}
+h1 {
+		color: rgba(0,0,225,2);
+		
+		font-family: arial, verdana, sans-serif;
+	    font-variant:normal; 
+		font-weight: bold;
+		font-size: 40px;
+		margin: 10px 10px 10px 20px;
+		position:absolute;
+		top: 10px;
+		left: 420px;
+		
+	}
+h2 {font-variant: small-caps;
+   
+   font-size: 25px;
+   margin: 10px 10px 10px 20px;
+  
+    }
+	
+h3 {font-variant: small-caps;
+   
+   font-size:35px;
+   margin: 10px 10px 10px 20px;
+  
+    } 
+h4{font-family: arial, verdana, sans-serif;
+   font-variant: normal;
+   font-size: 1em;
+   text-align: center;}
+h5{font-family: arial, verdana, sans-serif;
+   font-variant: normal;
+   font-size: 1em;
+   text-align: left;
+   line-height: 90%}
+	
+p {font-family: arial, verdana, sans-serif;
+   font-variant: normal;
+   font-size: 1em;
+   text-align: justify;
+   
+ }
+	
+td {font-family: arial, verdana, sans-serif; 
+   font-variant: normal;
+   font-weight: bold;
+   text-align: center;
+ 
+   }
+th {
+		text-align: center;
+		
+	}
+
+
+a:link {
+		color: blue;
+		
+	
+	}
+a:visited {
+		color: #660099;
+		  
+	}
+#container {
+		width:1240px;height:60px;
+	}
+#header1 {
+		background-color: rgba(0,0,225,0.2);
+		text-align:left;width:410px;height:57px;float:left;
+	
+	}
+
+#header2 {
+		background: rgba(0,0,225,0.2);
+		text-align:center;width:410px;height:57px;float:left;
+		
+	}
+	
+#header3 {
+		background: rgba(0,0,225,0.2);
+		text-align:right;width:420px;height:57px;float:left;
+			
+	}
+
+
+#picture {
+		float:left;
+		width: 100px;
+	}
+#pwdchange{
+	text-align: left;
+	width: 500px;
+	height: 600px;
+	float: left;
+	position: absolute;
+	top: 55px;
+	left: 420px;
+	font-family: arial, verdana, sans-serif;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	
+		}
+input.button{
+			font-family: arial, verdana, sans-serif;
+       font-variant: normal;
+       font-size: 0.7em;
+       text-align: justify;
+			
+			}
+#Cinemadetails{width:500px;height:800px;
+       position:absolute;
+		top: 50px;
+		left: 20px;
+		
+		position: absolute;
+	top: 55px;
+	left: 425px;
+}
+
+
+#Constrains{text-align:center;width:200px;float:left；
+        border-width: 5px;
+		border-style: outset;
+		border-color: rgba(0,0,225,0.5);
+		position: absolute;
+	top: 90px;
+	left: 10px;
+	height:550px;
+	overflow: auto;}
+
+	
+#searchresult{text-align:center;width:950px;	position: absolute;
+	top: 190px;
+	left: 250px;border-width: 8px;
+		border-style: outset;
+		border-color: rgba(0,0,225,0.5);
+		overflow: auto;
+		height:440px;}
+	
+#footer{text-align:center;width:1250px;height:20px;position: absolute;
+background: rgba(0,0,225,0.2);
+	top: 680px;
+	left: 20px;
+	position:fixed;}
+
+	
+div#c1{text-align:center;width:400px;height:70px;float:left;position: absolute;
+	top: 170px;
+	left: 10px;}
+div#c2{text-align:center;width:400px;height:70px;float:left;position: absolute;
+	top: 170px;
+	left: 420px;}
+div#c3{text-align:center;width:400px;height:70px;float:left;position: absolute;
+	top: 170px;
+	left: 830px;}
+
+div#poster1{text-align:center;width:400px;height:250px;float:left;position: absolute;
+	top: 230px;
+	left: 10px;}
+div#poster2{text-align:center;width:400px;height:250px;float:left;position: absolute;
+	top: 230px;
+	left: 410px;}
+div#poster3{text-align:center;width:400px;height:250px;float:left;position: absolute;
+	top: 230px;
+	left: 830px;}
+div#Constrains1{text-align:center;width:1250px;height:500px;float:left；position: absolute;
+	top: 50px;
+	left: 50px;}
+	div#Contents{text-align:center;width:1200px;height:550px;float:left;border-width: 8px;
+		border-style: outset;
+		border-color: rgba(0,0,225,0.5);
+		position: absolute;
+	top: 90px;
+	left: 30px;
+	overflow: auto;
+	padding：5px 5px 5px 5px;}
+
+div#Contents{text-align:left;width:1200px;float:left;border-width: 8px;
+		border-style: outset;
+		border-color: rgba(0,0,225,0.5);
+		position: absolute;
+	top: 90px;
+	left: 30px;
+	overflow: auto;
+	padding：5px 5px 5px 5px;}
+div#Contents1{text-align:center;width:1200px;float:left;border-width: 8px;
+		border-style: outset;
+		border-color: rgba(0,0,225,0.5);
+		position: absolute;
+	top: 70px;
+	left: 30px;}
+#accountinformation{text-align:center;width:1200px;height:150px;float:left;position: absolute;
+	top: 70px;
+	left: 40px;
+	}
+
+div#myorders{text-align:center;width:1200px;height:20px;float:left;position: absolute;
+	top: 200px;
+	left: 40px;}
+
+div#myreviews{text-align:center;width:1200px;height:20px;float:left;position: absolute;
+	top: 330px;
+	left: 40px;}
+
+div#Customer{
+	text-align: center;
+	width: 1220px;
+	height: 150px;
+	float: left;
+	position: absolute;
+	top: 177px;
+	left: 20px;
+	border-width: 8px;
+	border-style: outset;
+	border-color: rgba(0,0,225,0.5);
+	font-family: arial, verdana, sans-serif;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 40px;
+}
+div#CinemaAdministrator{
+	text-align: center;
+	width: 1220px;
+	height: 150px;
+	float: left;
+	position: absolute;
+	top: 359px;
+	left: 20;
+	border-width: 8px;
+	border-style: outset;
+	border-color: rgba(0,0,225,0.5);
+	font-family: arial, verdana, sans-serif;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 40px;
+		}

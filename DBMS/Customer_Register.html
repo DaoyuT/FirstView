@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+<body>
+<div id="container">
+   <div id="header1">
+    
+   </div>
+   
+   <div id="header2">
+      <h1 id="h2">CUSTOMER REGISTER</h1>
+   </div>
+
+<div id="header3">
+        
+   </div>
+   </div>
+   
+   
+   
+   
+ 
+   
+   <div id="Constrains1">
+  <pre> 
+ 
+<h3>Please fill in your information:</h3>      
+<form name="constrains" action="Customer_Information.php" method="post">
+
+Username:     <input type="text" name="username"  size="20" required/> 
+                    Password:     <input type="password"  id="Password" name="Password"  size="20" required/>                     
+Enter again:  <input type="password" name="Enter" id="Enter" size="20" oninput='check(this)' required/> 
+Email:        <input type="email" name="Email"  size="20"> 
+ Phone:        <input type="type" name="Phone"  size="20">  
+<script language='javascript' type='text/javascript'>
+function check(input) {
+if (input.value != document.getElementById('Password').value) {
+input.setCustomValidity('Password Must be Matching.');
+} else {
+// input is valid -- reset the error message
+input.setCustomValidity('');
+}
+}
+</script>
+
+                <input type="submit" value="Create a new account"> 
+        </form>   
+                 
+
+
+
+  </pre> 
+   </div>
+   </div>
+   <div id="footer">Copyright GROUP22 COP5725 2015 University of Florida</div>
+   </div>
+</body>
+
+</html>
+

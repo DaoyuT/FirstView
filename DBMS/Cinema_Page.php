@@ -48,7 +48,7 @@ $temp=$_GET["cinemaid"];
 $cinema_name=$cinemaname;
 $pic=$temp.'.png';
 
-echo "<img class='r' src ='http://www.cise.ufl.edu/~wenchao/picture/$pic' width='450' height='400'> ";
+echo "<img class='r' src ='/picture/$pic' width='450' height='400'> ";
 
 
 oci_bind_by_name($stid, ':d',$temp );
@@ -233,7 +233,7 @@ $dis=$dis*100;
 </div>
 
 
-<div id="footer">Copyright Wenchao GROUP22 COP5725 University of Florida</div>
+<div id="footer">Copyright GROUP22 COP5725 University of Florida</div>
    </div>
 </body>
 

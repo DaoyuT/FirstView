@@ -58,7 +58,7 @@
        
  <img id="p"  width='290' height='350'/>
    <script>
-       var t = new Array("http://www.cise.ufl.edu/~wenchao/picture/20000","http://www.cise.ufl.edu/~wenchao/picture/20001", "http://www.cise.ufl.edu/~wenchao/picture/20002","http://www.cise.ufl.edu/~wenchao/picture/20003","http://www.cise.ufl.edu/~wenchao/picture/20004","http://www.cise.ufl.edu/~wenchao/picture/20005","http://www.cise.ufl.edu/~wenchao/picture/20006","http://www.cise.ufl.edu/~wenchao/picture/20007","http://www.cise.ufl.edu/~wenchao/picture/20008","http://www.cise.ufl.edu/~wenchao/picture/20009","http://www.cise.ufl.edu/~wenchao/picture/200010","http://www.cise.ufl.edu/~wenchao/picture/200011","http://www.cise.ufl.edu/~wenchao/picture/200012");
+       var t = new Array("picture/20000","picture/20001", "picture/20002","picture/20003","picture/20004","picture/20005","/picture/20006","/picture/20007","/picture/20008","/picture/20009","/picture/200010","/picture/200011","/picture/200012");
        var i = 0;
        function changepic() {
            if (i > 12) i = 0;
@@ -73,11 +73,11 @@
    <div id="poster2">
      <br><br>
  
-       <img src ='http://www.cise.ufl.edu/~wenchao/picture/cinema.png' width='290' height='350'> 
+       <img src ='/picture/cinema.png' width='290' height='350'> 
    </div>
    <div id="poster3">
       <br><br>
-      <img src ='http://www.cise.ufl.edu/~wenchao/picture/ad.png' width='290' height='350'> 
+      <img src ='/picture/ad.png' width='290' height='350'> 
     
    </div>
    

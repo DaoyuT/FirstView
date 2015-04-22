@@ -73,7 +73,7 @@ while(oci_fetch($stid))
        echo "<br>";
      $pic=$temp.'.jpg';
 	$title1=search_string($title);
-     echo "<a href='https://www.youtube.com/results?search_query=$title1'><img class='r' src ='http://www.cise.ufl.edu/~wenchao/picture/$pic' width='300' height='450'></a> ";
+     echo "<a href='https://www.youtube.com/results?search_query=$title1'><img class='r' src ='/picture/$pic' width='300' height='450'></a> ";
      echo"<br>";
      echo"<br>";
      echo"Title:   $title" ;

@@ -19,7 +19,7 @@ oci_execute($stid);
 while (oci_fetch($stid)) {   /*oci_fetch every time get one tuple.*/
  if(strcmp($uname,$_POST["username"])==0 && strcmp($up,$_POST["password"])==0)
  {
- 	header("Location: http://www.cise.ufl.edu/~wenchao/Customer_Interface.php");
+ 	header("Location: Customer_Interface.php");
  	setcookie("customername",$userid , time()+3600);
  	exist;
  }
@@ -49,7 +49,7 @@ oci_close($conn);
 
 
 <h3>There was a problem with your request</h3>
-<h3>There was an error with your E-Mail/Password combination. <a href="http://www.cise.ufl.edu/~wenchao/Customer_signin_page.html"> Please try again.</a></h3>
+<h3>There was an error with your E-Mail/Password combination. <a href="/Customer_signin_page.html"> Please try again.</a></h3>
 
 </body>
 </html>

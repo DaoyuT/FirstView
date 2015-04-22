@@ -220,7 +220,7 @@ oci_close($conn);
             echo "<tr>
                   <td>  $i</td>
                   <td>  $t_period</td>
-                  <td>  <form name='sort1' action='http://www.cise.ufl.edu/~wenchao/Movie_Page.php' method='get'>  
+                  <td>  <form name='sort1' action='Movie_Page.php' method='get'>  
                                     <input type='hidden' name='movieid' value='$t_mid' /> 
                                     <input type='submit' value='$t_mname' /></form></td>
                   <td>  $t_tnum/$t_seats</td>
